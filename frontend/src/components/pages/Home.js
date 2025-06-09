@@ -76,24 +76,17 @@ function Home() {
   const [pets] = useState([
     {
       _id: "1",
-      name: "Rex",
-      weight: 12,
-      images: ["rex.jpg"],
+      name: "Lázaro",
+      weight: 50,
+      images: ["lazaro.jpeg"],
       available: true,
     },
     {
       _id: "2",
       name: "Luna",
       weight: 8,
-      images: ["luna.jpg"],
+      images: ["labra.jpg"],
       available: false,
-    },
-    {
-      _id: "3",
-      name: "Thor",
-      weight: 15,
-      images: ["thor.jpg"],
-      available: true,
     },
   ]);
 
