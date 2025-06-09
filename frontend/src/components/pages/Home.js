@@ -83,10 +83,17 @@ function Home() {
     },
     {
       _id: "2",
-      name: "Luna",
+      name: "Rapaiz",
       weight: 8,
-      images: ["labra.jpg"],
+      images: ["rapaiz.jpeg"],
       available: false,
+    },
+    {
+      _id: "3",
+      name: "Cachorro Doido",
+      weight: 8,
+      images: ["cachorroDoido.jpeg"],
+      available: true,
     },
   ]);
 
