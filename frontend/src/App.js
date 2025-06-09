@@ -9,8 +9,8 @@ import Container from "./components/layout/Container";
 
 /* pages */
 import Home from "./components/pages/Home";
-// import Login from "./components/pages/Auth/Login";
-// import Register from "./components/pages/Auth/Register";
+import Login from "./components/pages/Auth/Login";
+import Register from "./components/pages/Auth/Register";
 import Profile from "./components/pages/User/Profile";
 import AddPet from "./components/pages/Pet/AddPet";
 import MyPets from "./components/pages/Pet/MyPets";
@@ -28,7 +28,12 @@ function App() {
         <Message />
         <Container>
           <Switch>
-            
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/register">
+              <Register />
+            </Route>
             <Route path="/user/profile">
               <Profile />
             </Route>
