@@ -102,7 +102,7 @@ function Home() {
             <div className={styles.pet_card} key={pet._id}>
               <div
                 style={{
-                  backgroundImage: `url(/images/pets/${pet.images[0]})`,
+                  backgroundImage: `url(/Projeto_Faculdade/pets${pet.images[0]})`,
                 }}
                 className={styles.pet_card_image}
               ></div>
