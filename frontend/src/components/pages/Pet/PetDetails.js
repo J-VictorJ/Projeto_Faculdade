@@ -23,6 +23,7 @@ const petsData = {
       nome: "Maria Souza",
       email: "luna@email.com",
       telefone: "(61) 91111-2222",
+      mensagem: "Fiuii, olha a mensagem!!!",
     },
   },
 };
@@ -65,6 +66,10 @@ function PetDetails() {
       <p>
         <span className="bold">Telefone:</span> {pet.ownerContact.telefone}
       </p>
+      <p>
+        <span className="bold">mensagem:</span> {pet.ownerContact.mensagem}
+      </p>
+      
       <p className={styles.note}>
         * Essa é uma simulação acadêmica para fins de projeto. O cão apresentado aqui é fictício.
       </p>
