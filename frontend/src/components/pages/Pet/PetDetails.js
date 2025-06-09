@@ -6,7 +6,7 @@ const petsData = {
     name: "Lázaro",
     weight: 12,
     age: 3,
-    images: ["lazaro.jpeg", "lazaro1.jpeg"],
+    images: ["lazaro.jpeg", "lazaro2.jpeg"],
     ownerContact: {
       nome: "ADM",
       email: "jvictoregosum@gmail.com",
@@ -14,6 +14,20 @@ const petsData = {
       mensagem: "Lázaro foi um kchorrão que acabou entrando no condomínio e depois disso pegamos uma certa amizade com ele, mesmo ele sendo um cachorro de grande porte ele ainda se mostrou bem brincalhão. Felizmente ele já tem dono e foi o único que consegui achar para esse projeto. Lázaro foi um nome inventado por mim, não sabemos o nome verdadeiro dele."
     },
   },
+  
+  2: {
+    name: "Cachorro Rapaiz",
+    weight: 8,
+    age: 26,
+    images: ["rapaiz.jpeg"],
+    ownerContact: {
+      nome: "Carlos Massa",
+      email: "ratinho@email.com",
+      telefone: "(61) 92222-4002",
+      mensagem: `Interessado em adotar o Cachorro Rapaiz? Fale com o responsável através dos dados acima e conheça melhor este Kchorrinho. Uma nova amizade pode começar agora mesmo!`,
+    },
+  },
+  
   2: {
     name: "Cachorro Doido que acha que é pedreiro",
     weight: 16,
@@ -26,18 +40,6 @@ const petsData = {
       mensagem: `Interessado em adotar o Cachorro Doido que acha que é pedreiro? Fale com o responsável através dos dados acima e conheça melhor este Kchorrinho. Uma nova amizade pode começar agora mesmo!`,
     },
   },
-  3: {
-    name: "Cachorro Rapaiz",
-    weight: 8,
-    age: 26,
-    images: ["rapaiz.jpeg"],
-    ownerContact: {
-      nome: "Carlos Massa",
-      email: "ratinho@email.com",
-      telefone: "(61) 92222-4002",
-      mensagem: `Interessado em adotar o Cachorro Rapaiz? Fale com o responsável através dos dados acima e conheça melhor este Kchorrinho. Uma nova amizade pode começar agora mesmo!`,
-    },
-  }
 };
 
 function PetDetails() {
