@@ -27,8 +27,8 @@ const petsData = {
       mensagem: `Interessado em adotar o Cachorro Rapaiz? Fale com o responsável através dos dados acima e conheça melhor este Kchorrinho. Uma nova amizade pode começar agora mesmo!`,
     },
   },
-  
-  2: {
+
+  3: {
     name: "Cachorro Doido que acha que é pedreiro",
     weight: 16,
     age: 5,
